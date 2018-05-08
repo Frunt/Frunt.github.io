@@ -1,0 +1,133 @@
+#example{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.btn.add {
+    background-color: #27ccc0;
+    color: white;
+    width: 110px;
+    height: 30px;
+    border: 1px solid #27ccc0;
+    border-radius: 5px;
+}
+.taskName{
+    padding: 5px;
+    border: solid 1px #d2d2d2;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 2%;
+    width: 63%;
+}
+.form{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.formContainer {
+    border: solid 1px #f2f2f2;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 30%;
+    background-color: white;
+}
+.task{
+    font-weight: bold;
+    height: 15%;
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.task.notsel{
+    padding-left: 5%;
+    
+}
+.task.sel{
+    padding-left: 2.83%;
+    border-left: 10px solid red;
+    
+}
+.delbtn{
+    background-color: white;
+    border: solid 1px #ff3159;
+    border-radius: 5px;
+    color: #ff6786;
+    width: 25%;
+}
+.delbtn:hover{
+    background-color: #ff3159;
+    color: white;
+}
+.commContainer{
+    border: solid 1px #f2f2f2;
+    height: auto;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 55%;
+    margin-top: 5%;
+    top: 0;
+    background-color: white;
+    padding-left: 2%;
+}
+.comnum{
+    background-color: #27ccc0;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: 100px;
+    margin-left: 10px;
+}
+.separator{
+    display: block;
+    width: 90%;
+    background-color: #f2f2f2;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+.portrait{
+    width: 50px;
+    height: 50px;
+    background-color: #ff8a00;
+}
+.textportrait{
+    display: flex;
+    word-wrap: break-word;
+    height: auto;
+    align-items: flex-start;
+    margin-bottom: 2%;
+}
+.text{
+    width: 80%;
+    height: auto;
+    word-wrap: break-word;
+    font-weight: normal;
+    margin-left: 2%;
+    margin-top: 0;
+}
+.commpan{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+textarea{
+    resize: none;
+    width: 50%;
+}
+.addcom{
+    background-color: #27ccc0;
+    color: white;
+    border: 1px solid #27ccc0;
+    border-radius: 5px;
+    width: 22%;
+}
